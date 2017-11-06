@@ -13,8 +13,10 @@ function flipTails () {
 
 function tailsNeverFails(){
   const countTails = 0
+  debugger;
   while (flipTails()) {
     countTails += 1
+    debugger;
     console.log(countTails)
   }
   return counTails
