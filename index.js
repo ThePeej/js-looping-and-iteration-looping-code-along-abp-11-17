@@ -8,7 +8,7 @@ function printBadges(array) {
 
 
 function tailsNeverFails(){
-  const countTails = 0
+  let countTails = 0
   debugger;
   while (Math.random() >= 0.5) {
     countTails += 1
