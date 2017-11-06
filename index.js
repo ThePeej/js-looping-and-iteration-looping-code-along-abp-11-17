@@ -9,11 +9,9 @@ function printBadges(array) {
 
 function tailsNeverFails(){
   let countTails = 0
-  debugger;
   while (Math.random() >= 0.5) {
     countTails += 1
-    debugger;
-    console.log(countTails)
+    console.log(`You got ${countTails} in a row!`)
   }
   return countTails
 }
