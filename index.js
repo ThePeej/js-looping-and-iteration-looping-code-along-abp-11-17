@@ -6,15 +6,11 @@ function printBadges(array) {
   return array
 }
 
-function flipTails () {
-  return Math.random() >= 0.5;
-}
-
 
 function tailsNeverFails(){
   const countTails = 0
   debugger;
-  while (flipTails()) {
+  while (Math.random() >= 0.5) {
     countTails += 1
     debugger;
     console.log(countTails)
