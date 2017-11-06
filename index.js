@@ -15,5 +15,5 @@ function tailsNeverFails(){
     debugger;
     console.log(countTails)
   }
-  return counTails
+  return countTails
 }
