@@ -5,3 +5,15 @@ function printBadges(array) {
   }
   return array
 }
+
+function flipTails () {
+  return Math.random() >= 0.5;
+}
+
+
+function tailsNeverFails(){
+  const countTails = 0
+  while (flipTails()) {
+    return ++countTails
+  }  
+}
