@@ -12,5 +12,5 @@ function tailsNeverFails(){
   while (Math.random() >= 0.5) {
     countTails += 1
   }
-  console.log(`You got ${countTails} tails in a row!`)
+  return `You got ${countTails} tails in a row!`
 }
