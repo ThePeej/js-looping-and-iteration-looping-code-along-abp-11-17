@@ -15,7 +15,7 @@ function tailsNeverFails(){
   const countTails = 0
   while (flipTails()) {
     countTails += 1
-    console.log countTails
+    console.log(countTails)
   }
   return counTails
 }
